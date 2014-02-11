@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <title>Ruby Beer Recommender</title>
+        <link href="{{ css_url }}" rel="stylesheet" type="text/css"></link>
+    </head>
+    <body>
+        <div class="container">
+            <form id="rec">
+                <select id="beers" data-placeholder="Choose some beers..." class="chosen-select" multiple>
+                </select>
+                <button class="btn" type="submit">Go!</button>
+            </form>
+            <section class="results">
+                <p class="lead">The Lineup</p>
+                <ol class="visualization"></ol>
+            </section>
+            <pre id="result"></pre>
+        </div>
+        <script src="{{ jquery_url }}"></script>
+        <script src="{{ beers_url }}"></script>
+        <script src="{{ js_url }}"></script>
+    </body>
+</html>
