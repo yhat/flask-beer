@@ -18,10 +18,10 @@ var recommendation = {
     },
     beers: function(){
         for (var i=0; i < 5; i++){
-            $('.visualization div:first-child').append('<li class="beer" data-id="'+i+'">'+beer_svg+'<span class="name"></span></li>'); 
+            $('.col-1').append('<li class="beer" data-id="'+i+'">'+beer_svg+'<span class="name"></span></li>'); 
         }
         for (var i=5; i < 10; i++){
-            $('.visualization div:last-child').append('<li class="beer" data-id="'+i+'">'+beer_svg+'<span class="name"></span></li>'); 
+            $('.col-2').append('<li class="beer" data-id="'+i+'">'+beer_svg+'<span class="name"></span></li>'); 
         }
     },
     submit: function(){

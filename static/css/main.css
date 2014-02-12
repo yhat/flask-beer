@@ -1457,84 +1457,84 @@ fieldset input {
   display:inline-block;
   font-size:18px;
 }
-.visualization .beer:nth-child(8) {
+.col-2 .beer:nth-child(3) {
   -webkit-transition: all 0.3s ease-in 0.1s;
   -moz-transition: all 0.3s ease-in 0.1s;
   -ms-transition: all 0.3s ease-in 0.1s;
   -o-transition: all 0.3s ease-in 0.1s;
   transition: all 0.3s ease-in 0.1s;
 }
-.visualization .beer:nth-child(8) svg {
+.col-2 .beer:nth-child(3) svg {
   fill: #f4dd7d;
 }
-.visualization .beer:nth-child(7) {
+.col-2 .beer:nth-child(2) {
   -webkit-transition: all 0.3s ease-in 0.2s;
   -moz-transition: all 0.3s ease-in 0.2s;
   -ms-transition: all 0.3s ease-in 0.2s;
   -o-transition: all 0.3s ease-in 0.2s;
   transition: all 0.3s ease-in 0.2s;
 }
-.visualization .beer:nth-child(7) svg {
+.col-2 .beer:nth-child(2) svg {
   fill: #f3da73;
 }
-.visualization .beer:nth-child(6) {
+.col-2 .beer:first-child {
   -webkit-transition: all 0.3s ease-in 0.3s;
   -moz-transition: all 0.3s ease-in 0.3s;
   -ms-transition: all 0.3s ease-in 0.3s;
   -o-transition: all 0.3s ease-in 0.3s;
   transition: all 0.3s ease-in 0.3s;
 }
-.visualization .beer:nth-child(6) svg {
+.col-2 .beer:first-child svg {
   fill: #f3d86a;
 }
-.visualization .beer:nth-child(5) {
+.col-1 .beer:nth-child(5) {
   -webkit-transition: all 0.3s ease-in 0.4s;
   -moz-transition: all 0.3s ease-in 0.4s;
   -ms-transition: all 0.3s ease-in 0.4s;
   -o-transition: all 0.3s ease-in 0.4s;
   transition: all 0.3s ease-in 0.4s;
 }
-.visualization .beer:nth-child(5) svg {
+.col-1 .beer:nth-child(5) svg {
   fill: #f2d560;
 }
-.visualization .beer:nth-child(4) {
+.col-1 .beer:nth-child(4) {
   -webkit-transition: all 0.3s ease-in 0.5s;
   -moz-transition: all 0.3s ease-in 0.5s;
   -ms-transition: all 0.3s ease-in 0.5s;
   -o-transition: all 0.3s ease-in 0.5s;
   transition: all 0.3s ease-in 0.5s;
 }
-.visualization .beer:nth-child(4) svg {
+.col-1 .beer:nth-child(4) svg {
   fill: #f1d357;
 }
-.visualization .beer:nth-child(3) {
+.col-1 .beer:nth-child(3) {
   -webkit-transition: all 0.3s ease-in 0.6s;
   -moz-transition: all 0.3s ease-in 0.6s;
   -ms-transition: all 0.3s ease-in 0.6s;
   -o-transition: all 0.3s ease-in 0.6s;
   transition: all 0.3s ease-in 0.6s;
 }
-.visualization .beer:nth-child(3) svg {
+.col-1 .beer:nth-child(3) svg {
   fill: #f0d04d;
 }
-.visualization .beer:nth-child(2) {
+.col-1 .beer:nth-child(2) {
   -webkit-transition: all 0.3s ease-in 0.7s;
   -moz-transition: all 0.3s ease-in 0.7s;
   -ms-transition: all 0.3s ease-in 0.7s;
   -o-transition: all 0.3s ease-in 0.7s;
   transition: all 0.3s ease-in 0.7s;
 }
-.visualization .beer:nth-child(2) svg {
+.col-1 .beer:nth-child(2) svg {
   fill: #f0ce44;
 }
-.visualization .beer:nth-child(1) {
+.col-1 .beer:first-child {
   -webkit-transition: all 0.3s ease-in 0.8s;
   -moz-transition: all 0.3s ease-in 0.8s;
   -ms-transition: all 0.3s ease-in 0.8s;
   -o-transition: all 0.3s ease-in 0.8s;
   transition: all 0.3s ease-in 0.8s;
 }
-.visualization .beer:nth-child(1) svg {
+.col-1 .beer:first-child svg {
   fill: #efcb3b;
 }
 @-ms-viewport {
