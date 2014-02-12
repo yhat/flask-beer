@@ -13,12 +13,16 @@
                 <button class="btn" type="submit">Go!</button>
             </form>
             <section class="results">
-                <p class="lead">The Lineup</p>
-                <ol class="visualization"></ol>
+                <p class="lead">Top Ten Recommended Beers</p>
+                <figure class="visualization row">
+                    <div class="col-sm-6"></div>
+                    <div class="col-sm-6"></div>
+                </figure>
             </section>
-            <pre id="result"></pre>
+            <pre id="result" class="language-javascript"><code class="language-javascript"></code></pre>
         </div>
         <script src="{{ jquery_url }}"></script>
+        <script src="{{ highlight_url }}"></script>
         <script src="{{ beers_url }}"></script>
         <script src="{{ js_url }}"></script>
     </body>
