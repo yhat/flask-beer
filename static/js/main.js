@@ -18,10 +18,10 @@ var recommendation = {
     },
     beers: function(){
         for (var i=0; i < 5; i++){
-            $('.col-1').append('<li class="beer" data-id="'+i+'">'+beer_svg+'<span class="name"></span></li>'); 
+            $('.col-1').append('<li class="beer" data-id="'+i+'">'+beer_svg+'<span class="name"></span></li>');
         }
         for (var i=5; i < 10; i++){
-            $('.col-2').append('<li class="beer" data-id="'+i+'">'+beer_svg+'<span class="name"></span></li>'); 
+            $('.col-2').append('<li class="beer" data-id="'+i+'">'+beer_svg+'<span class="name"></span></li>');
         }
     },
     submit: function(){
@@ -42,9 +42,14 @@ var recommendation = {
                 if (d.result.length){
                     $('.results p').addClass('show');
                 }
-                for (var i=0; i < d.result.length; i++){
-                    var $this_beer = $('.beer:nth-child('+(i+1)+')');
-                    $this_beer.find('.name').html(d.result[i].beer);  
+                for (var i=0; i < 5; i++){
+                    var $this_beer = $('.col-1 .beer:nth-child('+(i+1)+')');
+                    $this_beer.find('.name').html(d.result[i].beer);
+                    $this_beer.addClass('show');
+                }
+                for (var i=5; i < 10; i++){
+                    var $this_beer = $('.col-2 .beer:nth-child('+(i-4)+')');
+                    $this_beer.find('.name').html(d.result[i].beer);
                     $this_beer.addClass('show');
                 }
                 Prism.highlightAll();
